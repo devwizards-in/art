@@ -41,7 +41,7 @@ const Footer = () => {
     <footer className='footer'>
       <Container>
         <div className='footer-content'>
-          <div className='footer-block'>
+          {/* <div className='footer-block'>
             <div className='block-title'>
               <h3 className='text-uppercase'>Customer Service</h3>
             </div>
@@ -62,12 +62,12 @@ const Footer = () => {
               <h3 className='text-uppercase'>Newsletter</h3>
               <Newsletter />
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='footer-copyright'>
-          <span>© {new Date().getFullYear()} MERN Store</span>
+          <span className=''>© {new Date().getFullYear()} Artrise</span>
         </div>
-        <ul className='footer-social-item'>
+        {/* <ul className='footer-social-item'>
           <li>
             <a href='/#facebook' rel='noreferrer noopener' target='_blank'>
               <span className='facebook-icon' />
@@ -88,7 +88,7 @@ const Footer = () => {
               <span className='twitter-icon' />
             </a>
           </li>
-        </ul>
+        </ul> */}
       </Container>
     </footer>
   );

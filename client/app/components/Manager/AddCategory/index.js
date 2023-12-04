@@ -60,7 +60,7 @@ const AddCategory = props => {
           <Col xs='12' md='12'>
             <SelectOption
               error={formErrors['products']}
-              label={'Select Products'}
+              label={'Select Arts'}
               multi={true}
               value={categoryFormData.products}
               options={products}

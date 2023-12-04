@@ -27,6 +27,7 @@
     }
   }
 }
+
 /* end product dashboard styles */
 
 /* start product list styles */
@@ -103,6 +104,7 @@
 
       .item-body {
         flex: 1 1 auto;
+
         .item-details {
           display: flex;
           flex-direction: column;
@@ -130,6 +132,7 @@
     }
   }
 }
+
 /* end product list styles */
 
 /* start product page styles */
@@ -178,6 +181,10 @@
       .item-desc {
         color: $font-custom-color !important;
         word-break: break-all;
+        background-color: rgb(250, 250, 250);
+        padding: 10px;
+        border-radius: 10px;
+        ;
       }
 
       .price {
@@ -190,6 +197,7 @@
     }
   }
 }
+
 /* end product page styles */
 
 /* start product common styles */
@@ -245,4 +253,5 @@
 .out-of-stock {
   color: $theme-bright-red;
 }
+
 /* end product common styles */

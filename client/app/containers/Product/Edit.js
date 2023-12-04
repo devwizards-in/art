@@ -45,7 +45,7 @@ class Edit extends React.PureComponent {
 
     return (
       <SubPage
-        title='Edit Product'
+        title='Edit Art'
         actionTitle='Cancel'
         handleAction={history.goBack}
       >
@@ -61,7 +61,7 @@ class Edit extends React.PureComponent {
             activateProduct={activateProduct}
           />
         ) : (
-          <NotFound message='No product found.' />
+          <NotFound message='No art found.' />
         )}
       </SubPage>
     );

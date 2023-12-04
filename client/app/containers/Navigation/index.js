@@ -81,11 +81,10 @@ class Navigation extends React.PureComponent {
         <div className='d-flex'>
           <img
             className='item-image'
-            src={`${
-              suggestion.imageUrl
-                ? suggestion.imageUrl
-                : '/images/placeholder-image.png'
-            }`}
+            src={`${suggestion.imageUrl
+              ? suggestion.imageUrl
+              : '/images/placeholder-image.png'
+              }`}
           />
           <div>
             <Container>
@@ -128,7 +127,7 @@ class Navigation extends React.PureComponent {
     } = this.props;
 
     const inputProps = {
-      placeholder: 'Search Products',
+      placeholder: 'Search Arts',
       value: searchValue,
       onChange: (_, { newValue }) => {
         onSearch(newValue);
@@ -146,11 +145,11 @@ class Navigation extends React.PureComponent {
               </Col>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-credit-card' />
-                <span>Payment Methods</span>
+                <span>Cash on delivery</span>
               </Col>
               <Col md='4' className='text-center d-none d-md-block'>
                 <i className='fa fa-phone' />
-                <span>Call us 951-999-9999</span>
+                <span>admin@artise.com</span>
               </Col>
               <Col xs='12' className='text-center d-block d-md-none'>
                 <i className='fa fa-phone' />
@@ -180,7 +179,7 @@ class Navigation extends React.PureComponent {
                   />
                 )}
                 <Link to='/'>
-                  <h1 className='logo'>MERN Store</h1>
+                  <h1 className='logo'>Artrise</h1>
                 </Link>
               </div>
             </Col>
@@ -226,7 +225,7 @@ class Navigation extends React.PureComponent {
               sm={{ size: 12, order: 2 }}
               md={{ size: 9, order: 1 }}
               lg={{ size: 4, order: 3 }}
-              // className='px-0'
+            // className='px-0'
             >
               <Navbar color='light' light expand='md' className='mt-1 mt-md-0'>
                 <CartIcon

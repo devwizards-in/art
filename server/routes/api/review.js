@@ -73,7 +73,7 @@ router.get('/:slug', async (req, res) => {
 
     if (!productDoc || hasNoBrand) {
       return res.status(404).json({
-        message: 'No product found.'
+        message: 'No arts found.'
       });
     }
 

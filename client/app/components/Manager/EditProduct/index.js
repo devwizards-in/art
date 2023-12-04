@@ -40,7 +40,7 @@ const EditProduct = props => {
   return (
     <div className='edit-product'>
       <div className='d-flex flex-row mx-0 mb-3'>
-        <label className='mr-1'>Product link </label>
+        <label className='mr-1'>Art link : </label>
         <Link to={`/product/${product.slug}`} className='default-link'>
           {product.slug}
         </Link>
@@ -65,7 +65,7 @@ const EditProduct = props => {
             <Input
               type={'text'}
               error={formErrors['sku']}
-              label={'Sku'}
+              label={'Id'}
               name={'sku'}
               placeholder={'Product Sku'}
               value={product.sku}

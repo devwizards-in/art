@@ -1,6 +1,6 @@
 /**
  *
- * AddProduct
+ * Add Art 
  *
  */
 
@@ -43,9 +43,9 @@ const AddProduct = props => {
             <Input
               type={'text'}
               error={formErrors['sku']}
-              label={'Sku'}
+              label={'Id'}
               name={'sku'}
-              placeholder={'Product Sku'}
+              placeholder={'Art Id'}
               value={productFormData.sku}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -58,7 +58,7 @@ const AddProduct = props => {
               error={formErrors['name']}
               label={'Name'}
               name={'name'}
-              placeholder={'Product Name'}
+              placeholder={'Art Name'}
               value={productFormData.name}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -71,7 +71,7 @@ const AddProduct = props => {
               error={formErrors['description']}
               label={'Description'}
               name={'description'}
-              placeholder={'Product Description'}
+              placeholder={'Art Description'}
               value={productFormData.description}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -85,7 +85,7 @@ const AddProduct = props => {
               label={'Quantity'}
               name={'quantity'}
               decimals={false}
-              placeholder={'Product Quantity'}
+              placeholder={'Art Quantity'}
               value={productFormData.quantity}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -99,7 +99,7 @@ const AddProduct = props => {
               label={'Price'}
               name={'price'}
               min={1}
-              placeholder={'Product Price'}
+              placeholder={'Art Price'}
               value={productFormData.price}
               onInputChange={(name, value) => {
                 productChange(name, value);
@@ -158,7 +158,7 @@ const AddProduct = props => {
         </Row>
         <hr />
         <div className='add-product-actions'>
-          <Button type='submit' text='Add Product' />
+          <Button type='submit' text='Add Art' />
         </div>
       </form>
     </div>

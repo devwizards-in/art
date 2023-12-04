@@ -31,7 +31,7 @@ class Add extends React.PureComponent {
 
     return (
       <SubPage
-        title='Add Product'
+        title='Add Art'
         actionTitle='Cancel'
         handleAction={() => history.goBack()}
       >
