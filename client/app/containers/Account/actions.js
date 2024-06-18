@@ -1,7 +1,5 @@
 /*
- *
- * Account actions
- *
+  Account actions
  */
 
 import { success } from 'react-notification-system-redux';

@@ -40,7 +40,7 @@ class Signup extends React.PureComponent {
     };
 
     return (
-      <div className='signup-form'>
+      <div className='signup-form item-center justify-between'>
         {isLoading && <LoadingIndicator />}
         <h2>Sign Up</h2>
         <hr />
@@ -104,13 +104,13 @@ class Signup extends React.PureComponent {
                 />
               </Col>
             </Col>
-            <Col
+            {/* <Col
               xs={{ size: 12, order: 1 }}
               md={{ size: '6', order: 2 }}
               className='mb-2 mb-md-0'
             >
               <SignupProvider />
-            </Col>
+            </Col> */}
           </Row>
           <hr />
           {/* <Checkbox

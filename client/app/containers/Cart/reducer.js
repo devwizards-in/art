@@ -13,7 +13,7 @@ import {
   CLEAR_CART
 } from './constants';
 
-const initialState = {
+const initialState = {      // s
   cartItems: [],
   cartTotal: 0,
   cartId: ''

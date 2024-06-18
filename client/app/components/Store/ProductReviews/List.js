@@ -1,7 +1,5 @@
-/**
- *
- * List
- *
+/*
+  List
  */
 
 import React from 'react';

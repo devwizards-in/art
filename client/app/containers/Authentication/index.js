@@ -1,7 +1,4 @@
-/**
- *
- * Authentication
- *
+/* Authentication
  */
 
 import React from 'react';

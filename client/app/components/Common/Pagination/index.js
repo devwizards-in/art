@@ -1,7 +1,5 @@
-/**
- *
- * Pagination
- *
+/*
+ Pagination
  */
 
 import React from 'react';

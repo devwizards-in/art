@@ -4,7 +4,6 @@
   position: fixed;
   top: 0;
   left: -100%;
-  background: $white;
   height: 100%;
   width: 370px;
   z-index: 1000;
@@ -16,6 +15,21 @@
     width: 88%;
     top: 0;
   }
+  background-image: linear-gradient(
+    to right bottom,
+    #88b3f9,
+    #8cbefb,
+    #93c9fb,
+    #9ed3fb,
+    #acddfb,
+    #aee0fc,
+    #b0e4fc,
+    #b2e7fd,
+    #a5e5fe,
+    #97e4fe,
+    #87e2fe,
+    #76e1fe
+  );
 }
 
 // show hidden menu popup
@@ -37,7 +51,21 @@
 
 .navigation-menu {
   height: 100%;
-  background-color: $theme-white;
+  background-image: radial-gradient(
+    circle,
+    #f988a6,
+    #fa93b5,
+    #fb9ec4,
+    #fba9d1,
+    #fbb4dd,
+    #f9b1e1,
+    #f5aee6,
+    #f1aceb,
+    #e69cee,
+    #d68ef2,
+    #c381f7,
+    #a976fe
+  );
 
   .menu-header {
     border-bottom: $border-default;

@@ -1,7 +1,5 @@
 /*
- *
- * Users
- *
+  Users
  */
 
 import React from 'react';

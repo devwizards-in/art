@@ -1,23 +1,3 @@
-# MERN Ecommerce
-
-## Description
-
-An ecommerce store built with MERN stack, and utilizes third party API's. This ecommerce store enable three main different flows or implementations:
-
-1. Buyers browse the store categories, products and brands
-2. Sellers or Merchants manage their own brand component
-3. Admins manage and control the entire store components 
-
-
-* features:
-  * Node provides the backend environment for this application
-  * Express middleware is used to handle requests, routes
-  * Mongoose schemas to model the application data
-  * React for displaying UI components
-  * Redux to manage application's state
-  * Redux Thunk middleware to handle asynchronous redux actions
-
-
 ## Database Seed
 
 * The seed command will create an admin user in the database
@@ -29,21 +9,6 @@ An ecommerce store built with MERN stack, and utilizes third party API's. This e
 npm run seed:db [email-***@****.com] [password-******] // This is just an example.
 ```
 
-## Demo
-
-This application is deployed on Vercel Please check it out :smile: [here](https://mern-store-gold.vercel.app).
-
-See admin dashboard [demo](https://mernstore-bucket.s3.us-east-2.amazonaws.com/admin.mp4)
-
-## Install
-
-Some basic Git commands are:
-
-```
-$ git clone https://github.com/mohamedsamara/mern-ecommerce.git
-$ cd project
-$ npm install
-```
 
 ## Start development
 

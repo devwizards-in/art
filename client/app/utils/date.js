@@ -1,7 +1,8 @@
-/**
- *
- * date.js
- * this helper formulate date
+/*
+  date.js
+  this helper formulate date
+
+  These functions are useful for converting and formatting date objects into readable date and time strings according to specific formatting options.
  */
 
 const today = new Date();

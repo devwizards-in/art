@@ -1,7 +1,5 @@
 /*
- *
- * Add
- *
+  Add
  */
 
 import React from 'react';

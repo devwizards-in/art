@@ -1,7 +1,5 @@
 /*
- *
- * AccountSecurity
- *
+  AccountSecurity
  */
 
 import React from 'react';

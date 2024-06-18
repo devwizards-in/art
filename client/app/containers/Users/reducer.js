@@ -1,7 +1,5 @@
 /*
- *
- * Users reducer
- *
+ Users reducer
  */
 
 import {

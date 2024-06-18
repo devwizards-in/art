@@ -1,7 +1,5 @@
-/**
- *
- * Icon
- *
+/*
+ Icon
  */
 
 import React from 'react';

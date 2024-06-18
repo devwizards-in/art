@@ -1,7 +1,5 @@
 /*
- *
- * Account constants
- *
+  Account constants
  */
 
 export const ACCOUNT_CHANGE = 'src/Account/ACCOUNT_CHANGE';

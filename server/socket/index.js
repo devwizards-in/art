@@ -1,17 +1,17 @@
-const socketio = require('socket.io');
-const jwt = require('jsonwebtoken');
-const mongoose = require('mongoose');
+const socketio = require('socket.io');    // library, which allows for real-time, two-way communication between a server and connected clients
+const jwt = require('jsonwebtoken');      // library, used for creating and verifying tokens that help authenticate users
+const mongoose = require('mongoose');     // interacting with MongoDB databases
 
-const { ROLES } = require('../constants');
-const keys = require('../config/keys');
-const User = mongoose.model('User');
+const { ROLES } = require('../constants');    // ROLES = object (Admin, User)
+const keys = require('../config/keys');   // imports configuration settings (sensitive information)
+const User = mongoose.model('User');      // retrieves the User model from db
 
 const support = require('./support');
 
-const authHandler = async (socket, next) => {
-  const { token = null } = socket.handshake.auth;
+const authHandler = async (socket, next) => {     // This function is responsible for authenticating users who connect to the WebSocket server
+  const { token = null } = socket.handshake.auth;   //  If no token is found, it defaults to null
   if (token) {
-    const [authType, tokenValue] = token.trim().split(' ');
+    const [authType, tokenValue] = token.trim().split(' ');   // splits the token string
     if (authType !== 'Bearer' || !tokenValue) {
       return next(new Error('no token'));
     }

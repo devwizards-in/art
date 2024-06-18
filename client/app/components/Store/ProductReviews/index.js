@@ -1,7 +1,5 @@
-/**
- *
- * ProductReviews
- *
+/*
+  ProductReviews
  */
 
 import React from 'react';

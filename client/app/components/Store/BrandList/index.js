@@ -1,7 +1,4 @@
-/**
- *
- * BrandList
- *
+/* BrandList
  */
 
 import React from 'react';

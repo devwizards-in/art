@@ -1,7 +1,5 @@
 /*
- *
- * Address reducer
- *
+  Address reducer
  */
 
 import {

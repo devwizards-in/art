@@ -1,7 +1,5 @@
 /*
- *
- * Account
- *
+  Account
  */
 
 import React from 'react';

@@ -1,7 +1,5 @@
 /*
- *
- * Users actions
- *
+  Users actions
  */
 
 import axios from 'axios';

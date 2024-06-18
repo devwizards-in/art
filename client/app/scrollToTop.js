@@ -1,7 +1,6 @@
-/**
- *
- * scrollToTop.js
- * scroll restoration
+/*
+  scrollToTop.js
+  scroll restoration
  */
 
 import React from 'react';

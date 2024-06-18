@@ -1,7 +1,5 @@
-/**
- *
- * Footer
- *
+/*
+  Footer
  */
 
 import React from 'react';
@@ -65,7 +63,7 @@ const Footer = () => {
           </div> */}
         </div>
         <div className='footer-copyright'>
-          <span className=''>© {new Date().getFullYear()} Artrise</span>
+          <span className=''>© {new Date().getFullYear()} ArtVenue</span>
         </div>
         {/* <ul className='footer-social-item'>
           <li>

@@ -1,7 +1,5 @@
 /*
- *
- * Address
- *
+  Address
  */
 
 import React from 'react';

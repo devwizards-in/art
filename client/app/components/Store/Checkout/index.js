@@ -1,7 +1,5 @@
-/**
- *
- * Checkout
- *
+/*
+  Checkout
  */
 
 import React from 'react';

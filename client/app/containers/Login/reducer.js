@@ -1,7 +1,5 @@
 /*
- *
- * Login reducer
- *
+  Login reducer
  */
 
 import {

@@ -1,7 +1,5 @@
-/**
- *
- * ProductList
- *
+/*
+  ProductList
  */
 
 import React from 'react';

@@ -1,7 +1,7 @@
-/**
- *
- * actions.js
- * actions configuration
+/*
+  actions.js
+  actions configuration
+  actions aht reducer chay
  */
 
 import { bindActionCreators } from 'redux';

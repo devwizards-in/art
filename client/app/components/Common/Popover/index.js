@@ -1,7 +1,5 @@
-/**
- *
- * Popover
- *
+/*
+  Popover
  */
 
 import React from 'react';

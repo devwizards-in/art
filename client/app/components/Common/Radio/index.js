@@ -1,7 +1,5 @@
-/**
- *
- * Checkbox
- *
+/*
+  Checkbox
  */
 
 import React from 'react';

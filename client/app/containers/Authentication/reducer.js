@@ -1,7 +1,5 @@
 /*
- *
- * Authentication reducer
- *
+ Authentication reducer
  */
 
 import { SET_AUTH, CLEAR_AUTH } from './constants';

@@ -1,7 +1,5 @@
 /*
- *
- * Address constants
- *
+  Address constants
  */
 
 export const FETCH_ADDRESS = 'src/Address/FETCH_ADDRESS';

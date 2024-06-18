@@ -1,7 +1,4 @@
-/**
- *
- * CartSummary
- *
+/* CartSummary
  */
 
 import React from 'react';

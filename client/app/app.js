@@ -1,7 +1,5 @@
-/**
- *
- * app.js
- *
+/*
+  app.js
  */
 
 import React from 'react';

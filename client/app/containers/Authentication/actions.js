@@ -1,7 +1,5 @@
 /*
- *
- * Authentication actions
- *
+ Authentication actions
  */
 
 import { SET_AUTH, CLEAR_AUTH } from './constants';

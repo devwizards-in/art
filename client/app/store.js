@@ -1,7 +1,6 @@
-/**
- *
- * store.js
- * store configuration
+/*
+  store.js
+  store configuration
  */
 
 import { createStore, compose, applyMiddleware } from 'redux';

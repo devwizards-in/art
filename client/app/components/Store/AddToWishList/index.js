@@ -1,7 +1,5 @@
-/**
- *
- * AddToWishList
- *
+/*
+ AddToWishList
  */
 
 import React from 'react';

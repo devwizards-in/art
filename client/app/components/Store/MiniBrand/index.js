@@ -1,7 +1,5 @@
-/**
- *
- * MiniBrand
- *
+/*
+ MiniBrand
  */
 
 import React from 'react';

@@ -1,11 +1,25 @@
 // header styles
 .header-info {
   padding: 10px 0px;
-  background-color: $theme-light-black;
+  background-image: radial-gradient(
+    circle,
+    #f988a6,
+    #fa93b5,
+    #fb9ec4,
+    #fba9d1,
+    #fbb4dd,
+    #f9b1e1,
+    #f5aee6,
+    #f1aceb,
+    #e69cee,
+    #d68ef2,
+    #c381f7,
+    #a976fe
+  );
 
   .fa,
   span {
-    color: $white;
+    color: black;
     font-size: $font-size-medium !important;
     font-weight: $font-weight-normal;
     margin: 0px 5px;
@@ -231,7 +245,7 @@
           width: 100%;
           height: 2px;
           background-color: $primary-bg;
-          content: '';
+          content: "";
           opacity: 0;
           -webkit-transition: opacity $layout-transition-speed,
             -webkit-transform $layout-transition-speed;

@@ -10,7 +10,7 @@ const role = require('../../middleware/role');
 const store = require('../../utils/store');
 const { ROLES, MERCHANT_STATUS } = require('../../constants');
 
-router.post('/add', auth, role.check(ROLES.Admin), async (req, res) => {
+router.post('/add', auth, role.check(ROLES.Admin), async (req, res) => {     // add api (storing data used post req)
   try {
     const name = req.body.name;
     const description = req.body.description;
@@ -28,14 +28,14 @@ router.post('/add', auth, role.check(ROLES.Admin), async (req, res) => {
       isActive
     });
 
-    const brandDoc = await brand.save();
+    const brandDoc = await brand.save();     // value save karato ani wait karto complete chi
 
-    res.status(200).json({
+    res.status(200).json({                             // value save zali ahe 200 responce bhetel
       success: true,
       message: `Brand has been added successfully!`,
       brand: brandDoc
     });
-  } catch (error) {
+  } catch (error) {               // 400 Bad Request response
     res.status(400).json({
       error: 'Your request could not be processed. Please try again.'
     });
@@ -87,7 +87,7 @@ router.get(
   }
 );
 
-router.get('/:id', async (req, res) => {
+router.get('/:id', async (req, res) => {   // by id
   try {
     const brandId = req.params.id;
 

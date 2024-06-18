@@ -2,6 +2,8 @@
  *
  * reducers.js
  * reducers configuration
+ * 
+ * action che reducer ahet
  */
 
 import { combineReducers } from 'redux';

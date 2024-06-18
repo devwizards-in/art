@@ -1,7 +1,5 @@
 /*
- *
- * Edit
- *
+  Edit
  */
 
 import React from 'react';

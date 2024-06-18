@@ -4,7 +4,21 @@
   position: fixed;
   top: 0;
   right: -100%;
-  background-color: $white;
+  background-image: linear-gradient(
+    to right bottom,
+    #88b3f9,
+    #8cbefb,
+    #93c9fb,
+    #9ed3fb,
+    #acddfb,
+    #aee0fc,
+    #b0e4fc,
+    #b2e7fd,
+    #a5e5fe,
+    #97e4fe,
+    #87e2fe,
+    #76e1fe
+  );
   height: 100%;
   width: 470px;
   z-index: 1000;
